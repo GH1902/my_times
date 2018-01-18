@@ -1,0 +1,46 @@
+div {
+  border: 1px solid blue;
+}
+
+body {
+  display: block;
+}
+
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+}
+
+span {
+  display: inline-block;
+  padding: 10px;
+}
+
+a {
+  text-decoration: underline;
+  color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 30px;
+  align-items: center;
+}
+
+.logo span {
+  color: MediumAquamarine;
+}
+
+.top-nav {
+  display: flex;
+  padding-right: 40px;
+}
