@@ -4,6 +4,9 @@ div {
 
 body {
   display: block;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 header {
@@ -43,4 +46,27 @@ a {
 .top-nav {
   display: flex;
   padding-right: 40px;
+}
+
+.container {
+  display: flex;
+  padding-top: 118px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
